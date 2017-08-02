@@ -4,20 +4,13 @@ Created a Simple Blog which contains Title, Article and Timestamp using CakePHP.
 
 ## Implementation
 
-Created Articles Database
+Created Articles Database in MAMP.
 
-CREATE TABLE articles (
-    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(50),
-    body TEXT,
-    created DATETIME DEFAULT NULL,
-    modified DATETIME DEFAULT NULL
-);
+Configured database in Config/app.php.
+
+User can add/edit/view and delete articles.
 
 
-Configured database in MAMP
-
-User can add/edit/view and delete articles
 
 
 
